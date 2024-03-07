@@ -38,6 +38,20 @@ jar files --> It containes all java classes .calssfiles = all .classfiles
 war files --> It Containes all Java code + web Content(HTML, CSS, JS, Images, xml) = jar files + web content
 ear files --> It contains all war files and jar files = war + jar
 
+Maven Directory
+================
+
+Boot: Conatins some files useful for running maven
+bin: It contains all binary files related to maven nothing but contains all commands for maven(mvn) 
+conf: Conatins all configuration files (settings.xml)
+lib: Conatins all libraries (jar files)
+
+Its not an executable software we need to download and extract file for installation
+
+- Goto to Maven website (official)
+- Right Click on Binary file and copy the link
+- Goto linux server and 
+
 
 
 
