@@ -27,3 +27,36 @@ Gulp
 Grunt
 
 Maven: Maven is a open source build tool  for Java based applications
+Maven will create Build Artifacts
+
+Using Maven we can build 3 types of Applications
+1. Standalone Application : For this It will create jar file (jar --> java archive)
+2. Web Application " For this it will build war files (war --> Web Archive)
+3. Enterprise Application : For this it will build ear files (ear --> Entrprise archive)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
