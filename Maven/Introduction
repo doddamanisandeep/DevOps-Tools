@@ -63,7 +63,21 @@ Maven Installation
 	export PATH=$PATH:$M2_HOME/bin
 - source ~/.bash_profile
 
+mvn -version --> to check maven version
 
+Sample Content in pom.xml
+===========================
+
+- build file for Maven i pom.xml
+- we can give customized name for pomxml
+
+3 Maven Repo's
+===============
+1. Local Repo
+ 	~/.m2/repository
+2. Remote Repo
+	
+3 . Central Repo
 
 
 
