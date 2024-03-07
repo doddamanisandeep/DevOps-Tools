@@ -34,20 +34,9 @@ Using Maven we can build 3 types of Applications
 2. Web Application " For this it will build war files (war --> Web Archive)
 3. Enterprise Application : For this it will build ear files (ear --> Entrprise archive)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+jar files --> It containes all java classes .calssfiles = all .classfiles
+war files --> It Containes all Java code + web Content(HTML, CSS, JS, Images, xml) = jar files + web content
+ear files --> It contains all war files and jar files = war + jar
 
 
 
