@@ -48,9 +48,20 @@ lib: Conatins all libraries (jar files)
 
 Its not an executable software we need to download and extract file for installation
 
+
+Maven Installation
+====================
+- Install Java as pre- required software to run Maven
 - Goto to Maven website (official)
 - Right Click on Binary file and copy the link
 - Goto linux server and 
+- wget paste the applink(zip) here
+- once downloaded unzip the file
+- goto vi ~/.bash_profile
+- at last mention below
+	export M2_HOME="Maven home directory path"
+	export PATH=$PATH:$M2_HOME/bin
+- source ~/.bash_profile
 
 
 
