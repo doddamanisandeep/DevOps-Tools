@@ -79,6 +79,29 @@ Sample Content in pom.xml
 	
 3 . Central Repo
 
+vi /etc/profile
+export M2_HOME=/opt/apache-maven-3.8.2
+ecport PATH=$PATH:$M2_HOME/bin
+
+
+Maven Life Cycles
+==================
+
+Clean --> Deletes the previoulsy built builds
+mvn clean
+
+site --> To generate documents for source code
+mvn site
+
+default --> Validate 	-- It validates project structure and resource files
+	--> complie 	-- It will complie the source and unit test cases
+	--> Test	-- It will run Junit test cases
+	--> Package	-- It will creates packeges such as jar,ear and war also called as Build artifacts
+	--> Install	-- It will store the package in Maven local repo
+	--> deploy	-- It will store package into remote repo
+
+
+
 
 
 
