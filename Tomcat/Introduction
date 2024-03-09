@@ -39,9 +39,14 @@ temp
 
 Installation
 =============
-
+- Install Java as Pre-required software for Tomcat
 - Goto official page to download tomcat
-- Right click and copy the 
+- Right click and copy the zip file link
+- wget followed by link
+- unzip the tomcat
+- Creat the soft link to start tomcat from anywere using below command
+        ln -s ~/apache-tomcat-9.0.86/bin/startup.sh /usr/bin/startTomcat 
+        ln -s ~/apache-tomcat-9.0.86/bin/shutdown.sh /usr/bin/stopTomcat
 
 
 
