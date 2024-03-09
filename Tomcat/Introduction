@@ -13,12 +13,35 @@ Application Servers
 
 Java Based
 ---------------
-Apache Tomcat --> Java Based
-Wildfly --> Earlier called as JBoss(1.x to 1.7)
-WAS --> Websphere Application Server
-Weblogic
+Apache Tomcat(open Source) --> Java Based
+Wildfly --> Earlier called as JBoss(1.x to 1.7) --> Initially by RedHat which is accuqired by IBM
+WAS --> Websphere Application Server --> IBM
+Weblogic --> By Oracle
+
 
 
 .Net
 --------
 IIS
+
+
+Tomcat Directory Structure
+===========================
+bin --> contains startup.sh(start/Stop)(linux/Mac) and startup.bat(windows) shutdown.sh(linux/Mac), shutdown.bat(Windows)
+        catalina.sh(start/Stop)(Linux?mac), catalina.bat(windows)
+
+conf
+lib
+logs
+webapps
+work
+temp
+
+
+
+
+
+
+
+
+
