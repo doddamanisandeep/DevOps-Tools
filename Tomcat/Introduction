@@ -30,14 +30,18 @@ Tomcat Directory Structure
 bin --> contains startup.sh(start/Stop)(linux/Mac) and startup.bat(windows) shutdown.sh(linux/Mac), shutdown.bat(Windows)
         catalina.sh(start/Stop)(Linux?mac), catalina.bat(windows)
 
-conf
-lib
-logs
-webapps
-work
+conf --> Contains all configuration files such as server.xml, tomcat-user.xml
+lib  --> All libraries nothing but jar files
+logs --> catalina.out, 
+webapps--> Default 5 application are there
+work --> 
 temp
 
+Installation
+=============
 
+- Goto official page to download tomcat
+- Right click and copy the 
 
 
 
