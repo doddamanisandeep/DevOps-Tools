@@ -1,2 +1,16 @@
 Tomcat
 =======
+
+We have created 3 files in previous session using Maven
+jar --> Can be run using command java-jar jarfilename
+war 
+ear
+
+But we need Application servers to Run war and ear files such as Tomcat for Java application
+
+Application Servers
+==========================
+Apache Tomcat --> Java Based
+Wildfly --> Earlier called as JBoss(1.x to 1.7)
+WAS --> Websphere Application Server
+Weblogic
