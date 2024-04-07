@@ -68,8 +68,8 @@ mvn -version --> to check maven version
 Sample Content in pom.xml
 ===========================
 
-- build file for Maven i pom.xml
-- we can give customized name for pomxml
+- build file for Maven is pom.xml
+- we can give customized name for pom.xml
 
 3 Maven Repo's
 ===============
@@ -81,7 +81,7 @@ Sample Content in pom.xml
 
 vi /etc/profile
 export M2_HOME=/opt/apache-maven-3.8.2
-ecport PATH=$PATH:$M2_HOME/bin
+export PATH=$PATH:$M2_HOME/bin
 
 
 Maven Life Cycles
