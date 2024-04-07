@@ -49,7 +49,7 @@ Step 7 : Node Group creation for EKS cluser
                   - Provide the Name for group
                   - Select the IAM role created.
                   - Select the taints, labels and tags if required
-                  - Select the AMI-- It supports only Amazon AMi
+                  - Select the AMI-- It supports only Amazon AMI(m5.8xlarge, C5)
                   - Select the type of servers
                   - Select the Instance type
                   - Select the Scalling Desired, Min size and Max Size
