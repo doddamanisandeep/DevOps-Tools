@@ -1,0 +1,56 @@
+kubectl get all
+kubectl get namespaces or kubectl get ns
+kubectl get all -n default (Check resources in default namespace)
+kubectl get all -n kube-system (Check resources in kube-system namespace)
+kubectl get pods
+kubectl get deployments
+kubectl get replicaset or kubectl get rs
+kubectl apply -f pod.yml --dry-run=client(To check whether yml going to work or not)
+kubectl apply -f pod.yml -n namespcaeName
+
+kubectl get pods
+Output
+=========
+NAME       READY     STATUS     RESTARTS    AGE
+PODname     2/2      Running        0        2h
+
+
+kubectl get pod -o wide
+output
+========
+
+NAME       READY     STATUS     RESTARTS    AGE        IP                  NODE               NOMINATED NODE    READINESS GATES    
+PODname      2/2        Running      0        2h      1.1.1.2/100         IP-172.31-44-167           <none>            <none>
+
+
+kubectl get pod --show-labels
+output
+========
+
+NAME       READY     STATUS     RESTARTS    AGE       LABELS   
+PODname      2/2        Running      0        2h     app=nginx-app 
+
+
+kubectl get svc
+
+output
+=======
+
+NAME       TYPE       CLUSTER-IP     EXTERNAL-IP    PORTS      AGE
+NginxSVC   ClusterIP  10.106.146.30    <none>       80/TCP     46s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

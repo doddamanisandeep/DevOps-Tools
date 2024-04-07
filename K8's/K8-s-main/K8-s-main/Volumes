@@ -1,0 +1,53 @@
+Volumes: Its is a storage that is mounted to a pod to store the data.
+
+ k8s supports below volumes
+============================
+emptydir: Data exists as long as Pod exists, if pod deleted data also delets.
+
+hostpath: 
+
+nfs: In this type a seperate server will be setup outside the cluster and configured with our pods.
+
+AWSElastic blockStore
+googlePersistant disk
+azurefile
+azureDisk
+
+PersistantVolume: It si simply a piece of storage in cluster.(Similiar to a disk in a server)
+ types
+=======
+1) Static Volume
+2) Dynamic Volume
+
+AccessModes
+==============
+
+ReadWriteOnce - RWO: Only one node and one pod can access
+ReadWriteMany - RWX: Multiple pod and multiple nodes
+ReadOnlyMany  - ROX: Pod can only read no write permission
+
+StorageClass: Its some code whenever when PVC not able to find any PV if we configured StorageClass 
+configured then it manages to create PV required.
+
+
+Claim Policies
+===============
+
+Retain: 
+    PV  will be existed even after deleting pod, means volume is availbe even after pod got deleted but it will not be claimed by
+    another pod bcz old pod data still exists.
+    It is default if we dont mention while claimg in menifest file.
+    
+Recycle: When claim deleted but associated volume will be exists but data will be deleted from old pod.It can be re used for claiming.
+Delete: When PVclaim is deleted PV also gets deleted.
+
+
+
+
+
+
+
+
+
+
+

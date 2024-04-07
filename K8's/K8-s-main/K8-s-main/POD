@@ -1,0 +1,19 @@
+POD: Pod is smallest building block or basic unit of scheduling in Kubernetes.
+      Pod represent smallest runnig process.
+      Each Pod will have unique IP Address 
+
+kubectl get pods
+kubectl get pods -o wide
+
+Pod Types
+==========
+1) One-container-per-pod
+2) Multicontainer-pod or side car
+      Ex: log shippers, Monitoring agents, Init Container
+
+Static Pod: Static Pods are directly managed by kubelet and API server doest not have any control over these static Pods.
+            Kubelet is responsible for Static pod and it restarts if static pod goes down.
+Ex: control plane pods (API Server, Control Manager, ETCD, scheduler)
+
+
+sudo ls /ect/kubernetes/manifests/

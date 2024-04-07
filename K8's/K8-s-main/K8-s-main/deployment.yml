@@ -1,0 +1,79 @@
+#Recreate
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: your-deployment
+spec:
+  replicas: 3
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: your-app
+  template:
+    metadata:
+      labels:
+        app: your-app
+    spec:
+      containers:
+        - name: your-container
+          image: your-image
+          ports:
+            - containerPort: 80
+
+
+
+
+#Rollin-Update
+
+
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: your-deployment
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  selector:
+    matchLabels:
+      app: your-app
+  template:
+    metadata:
+      labels:
+        app: your-app
+    spec:
+      containers:
+        - name: your-container
+          image: your-image
+          ports:
+            - containerPort: 80
+
+
+
+
+
+#Commands
+
+kubectl apply -f deployment.yml
+kubectl rollout status deployment deploymentName
+kubectl rolllout history deployment deploymentName
+kubectl rolllout history deployment deploymentName --revision=1
+kubectl rolllout undo deployment deploymentName --to-revision=1
+
+
+
+
+
+
+
+
+
+
+
+
