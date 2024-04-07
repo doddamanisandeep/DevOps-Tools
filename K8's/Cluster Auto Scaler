@@ -1,0 +1,14 @@
+Cluster AutoScaler will scale the servers of cluster based on requirement.
+
+Step 1: create AWS policy with below actions
+      - DescribeAutoScallingGroups
+      - DescribeAutoScallingInstances
+      - DescribeLaunchConfigurations
+      - DescribeTags
+      - SetDesiredCapacity
+      - TerminateInstanceInAutoScalingGroup
+      - DescribeLaunchTemplateVersions
+
+Step 2: Attach the policy to IAM role which is used to EKS node group
+
+Step 3: Deploy Cluster using yml 

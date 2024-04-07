@@ -1,0 +1,26 @@
+Name space: We can isoloate cluster using NameSpace by logical seperation. It is like cluster inside cluster.
+      We can apply security at Namespace level to secure each Namaspaces.
+      Commands for namespaces
+        kubectl get namespaces
+        kubectl get ns 
+
+POD: Pod is smallest building block or basic unit of scheduling in Kubernetes.
+      Pod represent smallest runnig process.
+      Each Pod will have unique IP Address
+      
+      
+ReplicationController
+ReplicaSet
+DeamonSet
+Deployment
+Statefullset
+Service
+ConfigMap
+Secret
+PersistantVolume
+PersistantVolumeClaim
+Role
+Role Binding
+ClusterRole
+ClusterRoleBinding
+

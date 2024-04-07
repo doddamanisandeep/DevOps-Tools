@@ -1,0 +1,88 @@
+Helm: Helm is a package manager for kubernetes applications. Using Helm we can install, update and remove applications.
+      We can deploy 3rd party(Software which is not built by me) applications using Helm.
+
+
+Helm Charts : Nothing but helm package consists of application information. Collection of manifest files in organized directory.
+      2 imp components
+        1. templates 
+        2. Values
+    
+Helm Repo : Place we maintain helm packages.
+Helm CLI : With help of this we can update, Install and remove applications
+
+Why Helm : Kubernetes can be difficult to manage with all objects(Deployment, Service, HPA, Livness probe, ConfigMap etc...) you need to maintain. 
+          Helm Simplifies the process of creating deploying and managing the application.
+          Helm also maints version history of every installation.
+          
+
+
+- Helm maintains a versioned history of every chart installation
+- With help of "helm rollback" we can go back to previous version of application.
+- With help of "helm update" we can update our application.
+
+
+components of Helm charts
+1. Templates --> this templates are nothing but manifest files.
+2. Values --> We can refer the value from diff file in manifest. Based on enviroment 
+
+Helm packages are called as charts. They consists of YAML configuration files and some templates.
+
+
+Helm 3
+Helm 2 --> older Version
+
+Helm CLI will connect with K8's cluster
+Helm CLI will use kube.config file to connect to cluster.
+
+
+We can Install HELM CLI in any machine(Local, Jenkins Machine, Client Machine).
+helm version - Command to check helm version.
+
+
+helm upgrade --install metrics-server metrics-server/metrics-server
+helm repo ls
+helm repo <add> <repo Name> <URL>
+helm search repo <repo Name>
+helm search repo metric-server
+helm repo search | grep "metrics"
+helm install <release-Name> <chart Name>
+helm install metric-server bitnami/metric-server -n kube-system
+helm install metric-server bitnami/metric-server --> will be deployed in default NameSpacce.
+helm uninstall <releasename> <chartName> -n <NamespaceName>
+
+Helm Chart for Java-Web-application
+===================================
+
+helm create <chartName>
+helm create java-web-app
+helm create django-todo
+helm create react-django
+
+upon executing above command we can see below directory structure
+Chart.yaml
+charts
+templates - deployment.yml, hpa.yml, service.yml, serviceaccount.yml
+values.yaml
+
+vi java-web-app/values.yaml(we can modify per our requirements)
+
+helm install <releaseName> <chartName>
+
+Create tar file using below command
+helm package <chartName>
+helm repo add sandeep githubpageURL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

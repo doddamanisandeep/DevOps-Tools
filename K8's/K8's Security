@@ -1,0 +1,9 @@
+* Secure API Server: 
+    -> goto k8s api server pod(kube system/kube-apiserver) yml and pass TLS file followed by private key then client
+
+
+* Restrict the access: 
+* RBAC(Role BAsed Access Control).
+* Network Policies
+* Encrypt the date at REST(ETCD)
+* Secure Container Images
