@@ -1,6 +1,0 @@
-ROLE BASED ACCESS CONTROL
-==========================
-
-1.Verbs(Actions) --> Read, Write, Update, Delete
-2.API Resources -->  Pods, Services,Deployment, PV, PVC, Ingress etc...
-3.Subjects --> Users, Groups, Processes(Service Account).

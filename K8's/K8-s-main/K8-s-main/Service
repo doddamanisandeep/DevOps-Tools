@@ -1,7 +1,0 @@
-Service: It is responsible for making our pods discoverable(accessable) within and outside the cluster.
-
-Types of Service:
---> ClusterIp
---> NodePort
---> LoadBalancer(External load Balancer)
---> Headless Service
