@@ -43,7 +43,7 @@ Step 7 : Node Group creation for EKS cluser
                   - AmazonEC2ContainerRegistryReadOnly
       Step 7.2: Create a role with above policies(EKS_Worker_role)
       Step 7.3: Goto EKS cluster
-                  - Select the cluser
+                  - Select the cluster
                   - Goto to compute tab
                   - Scroll down and click on "Add NodeGroup"
                   - Provide the Name for group
