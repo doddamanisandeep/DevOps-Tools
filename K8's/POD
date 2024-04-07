@@ -16,4 +16,4 @@ Static Pod: Static Pods are directly managed by kubelet and API server doest not
 Ex: control plane pods (API Server, Control Manager, ETCD, scheduler)
 
 
-sudo ls /ect/kubernetes/manifests/
+sudo ls /etc/kubernetes/manifests/
