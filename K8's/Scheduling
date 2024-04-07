@@ -1,7 +1,7 @@
 If we want to schedule some pod in specific nodes the we have concepts called Scheduling.
 
   NodeSelector: It like startght hit saying loveing someone as ILOVEYOU.
-  Node Affinity: It is like more expressive saying i do this for you and all. Means givrs much clarity.  
+  Node Affinity: It is like more expressive saying i do this for you and all. Means gives much clarity.  
     NodeAffinity is advanced version of NodeSelector.
 
     SoftRule (PreferedRule): Pod will assign on a non-matching node if and only if no other node in the cluster matches the specified labels.
