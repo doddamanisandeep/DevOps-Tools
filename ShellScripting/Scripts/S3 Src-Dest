@@ -1,11 +1,17 @@
-#!/bin/bash
-
-if (($#!-2))
-
+if (($#!=2))
 then
-
-echo -e exit
-
+echo -e "Please make sure that you are giving two arguments\nex: bash $0 src-bkt-name dest-bkt-name"
+exit 10
 fi
-
-"Please make sure that you are giving two arguments\nex: bash $0 src-bkt-name dest-bkt-name"
+src=$1
+dest-$2
+#Verifying bucket existance
+for bkt in $src $dest
+do
+bkt_check=$(aws s3 ls|awk '{print $3)'|grep -w "$bkt")
+if (($?!=0))
+then
+echo "bukcet $bkt not exists, please make sure that you are passing right bucket name"
+exit 20
+fi
+done
