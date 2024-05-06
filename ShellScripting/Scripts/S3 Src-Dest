@@ -15,3 +15,14 @@ echo "bukcet $bkt not exists, please make sure that you are passing right bucket
 exit 20
 fi
 done
+
+# Copying data from are to deat buckets
+data copy-S (aws 33 cp 33://$src/ 33://$dest/ --recursive)
+if (($?!=0))
+then
+echo -e "Copy is not succesfull, please check it once\n Error message $data copy"
+exit 20
+else
+echo "Data succesfully copied from $src to $dest bucket"
+fi
+:wq!
