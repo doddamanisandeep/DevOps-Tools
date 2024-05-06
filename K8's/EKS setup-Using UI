@@ -1,6 +1,6 @@
 Step 1: Create IAM role for EKS cluster
       - Goto IAM
-      - Goto Rules and Create Rule
+      - Goto Rules and Create Role
       - Select Use case as EKS cluster
       - Then select EKS-Cluster
       - policies will show AmazonEKSClusterPolicy
