@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if (($#!-2))
+
+then
+
+echo -e exit
+
+fi
+
+"Please make sure that you are giving two arguments\nex: bash $0 src-bkt-name dest-bkt-name"
