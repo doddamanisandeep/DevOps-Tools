@@ -105,3 +105,24 @@ do                                                                             s
   stmnt 1
 done
 
+range(5) = [0,1,2,3,4]
+range(1,5)= [1,2,3,4]
+
+
+for i in range(5) = 0,1,2,3,4
+for i in range(1,10,2) = 1,3,5,7,9
+for i in lis1 where lis1 = [1,2,33,45,67]
+
+
+While Loop
+==============
+    Shell                                                                    python
+
+while  conditn1                                                             while conditn1
+do                                                                            stmnt1
+  stmnt1
+done
+
+
+
+
