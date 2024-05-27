@@ -92,6 +92,16 @@ else
 fi
 
 
+Loops
+===================
+for loop and While loop
 
+For Loop
 
+    Shell                                                                    python
+
+for i in 10 20 30 40 60                                                     for i in [10,20,40,50,60]
+do                                                                             stmnt1
+  stmnt 1
+done
 
