@@ -17,3 +17,38 @@ SLC                                                                             
 MLC                                                                                     Comment line1
 Nill                                                                                    Comment line 2 
                                                                                         ''' or """
+
+
+        -->Variable                                                                    -->variable
+Define     var1=10                                                                        var1=10
+Accessing  $var1                                                                          var1
+Printing   echo $var1                                                                     print var1 <= 2.x | 
+                                                                                          print(var1) =>=3.x
+
+
+
+First Script
+==================
+#!/usr/bin/python3
+
+# Comment Section
+
+#MLC
+'''
+Hi im line1 Comment section
+Hi im line2 Comment section
+Hi im line3 Comment section
+'''
+
+"""
+Hi im line4 Comment section
+Hi im line5 Comment section
+Hi im line6 Comment section
+"""
+
+#Dinefine variable
+var1=100
+print(var1)
+
+
+
