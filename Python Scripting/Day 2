@@ -1,0 +1,22 @@
+Data Types
+===============
+
+Intiger          -->  2,3,50,100,2000...
+Boolean          -->  True, False
+String           -->  "Hello World"
+Characteristics  -->  a,b,c,d...
+Float            --> 15.4, 20.8, 25.50...
+
+Python Also supports few more Data Types 
+List              --> lis1 = [10,20,30,...100], lis2=[100,200,hi, hello, 500]
+Tupple            --> tup1 = {
+Dictonary         --> 
+
+
+                        lis1=[10,20,30,40,50]
+accessing              Index   0  1  2  3  4
+                               5 -4 -3 -2 -1  
+print(lis[3])= 40
+print(lis[-2])= 40
+print(lis[0:2])= 10,20
+
