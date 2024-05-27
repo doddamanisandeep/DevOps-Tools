@@ -9,14 +9,39 @@ Float            --> 15.4, 20.8, 25.50...
 
 Python Also supports few more Data Types 
 List              --> lis1 = [10,20,30,...100], lis2=[100,200,hi, hello, 500]
-Tupple            --> tup1 = {
-Dictonary         --> 
+Tupple            --> tup1 = (15,20,30,200,30,350)
+Dictonary         --> dict1= {"batchno":1, "subject" : "python" }
 
 
-                        lis1=[10,20,30,40,50]
-accessing              Index   0  1  2  3  4
+
+List
+==========================================
+
+Defining                lis1=[10,20,30,40,50]
+Index                          0  1  2  3  4
                                5 -4 -3 -2 -1  
-print(lis[3])= 40
-print(lis[-2])= 40
-print(lis[0:2])= 10,20
+Accessing               print(lis[3])= 40 | print(lis[-2])= 40 | print(lis[0:2])= 10,20
+
+
+Tupple
+==========================================
+Defining               tup1 = (15,20,30,200,30,350)
+Index                           0  1  2  3  4   5   
+                               -6 -5 -4 -3 -2  -1
+Accessing              print(tup1(1))=20 | print(tup1(-5))= 20
+
+Note
+=====
+Tupple is Immutable
+Means once defined it can not be modified
+
+
+Dictonary
+================
+
+Defining              dict1= {"batchno":1, "subject" : "python" }
+Accessing             print(dict1["Subject"])= python
+                      print(["batchno"])= 1
+
+
 
