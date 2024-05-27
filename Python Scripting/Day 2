@@ -45,3 +45,53 @@ Accessing             print(dict1["Subject"])= python
 
 
 
+Conditons
+==============
+
+if, if-else, elif ladder
+
+Note:Python is very strict with Indentation
+
+If condition
+================
+    Shell                                                                    python
+
+if  conditn1                                                           if  conditn1:
+then                                                                          stmnt1
+  stmnt1
+fi  
+
+
+if-else Condition
+==================
+    Shell                                                                    python
+
+if                                                                      if
+  conditn1                                                                 conditn1
+then                                                                         stmnt1                                                                      
+  stmnt1
+else                                                                     else
+  stmnt2                                                                     stmnt2     
+fi
+
+
+el-if ladder
+==================
+
+    Shell                                                                    python
+if                                                                      if
+  conditn1                                                                 conditn1
+then                                                                         stmnt1                                                                      
+  stmnt1                                                                elif
+elseif                                                                      conditn2
+  conditn1                                                                    stmnt2
+then                                                                     else
+  stmnt2                                                                      stmnt3
+else
+  stmnt3
+fi
+
+
+
+
+
