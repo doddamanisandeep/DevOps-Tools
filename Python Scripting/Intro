@@ -1,1 +1,19 @@
 Hello Python
+
+Other Dcripting Languages
+
+Perl
+Ruby
+Java/java script
+
+
+Shell Script                                                                            Python Scripting
+================                                                                       ====================
+ #!/bin/bash                                                                            #!usr/bin/python
+comment section                                                                         #Comment1
+SLC                                                                                     #Comment2
+#comment1                                                                               MLC                                                                  
+#commnet2                                                                               ''' or """
+MLC                                                                                     Comment line1
+Nill                                                                                    Comment line 2 
+                                                                                        ''' or """
