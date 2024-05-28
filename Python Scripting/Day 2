@@ -20,7 +20,7 @@ List
 Defining                lis1=[10,20,30,40,50]
 Index                          0  1  2  3  4
                                5 -4 -3 -2 -1  
-Accessing               print(lis[3])= 40 | print(lis[-2])= 40 | print(lis[0:2])= 10,20
+Accessing               print(lis1[3])= 40 | print(lis1[-2])= 40 | print(lis1[0:2])= 10,20
 
 
 Tupple
@@ -40,8 +40,8 @@ Dictonary
 ================
 
 Defining              dict1= {"batchno":1, "subject" : "python" }
-Accessing             print(dict1["Subject"])= python
-                      print(["batchno"])= 1
+Accessing             print(dict1["subject"])= python
+                      print(dict1["batchno"])= 1
 
 
 
@@ -83,10 +83,10 @@ if                                                                      if
   conditn1                                                                 conditn1
 then                                                                         stmnt1                                                                      
   stmnt1                                                                elif
-elseif                                                                      conditn2
-  conditn1                                                                    stmnt2
-then                                                                     else
-  stmnt2                                                                      stmnt3
+elseif                                                                     conditn2
+  conditn1                                                                   stmnt2
+then                                                                    else
+  stmnt2                                                                     stmnt3
 else
   stmnt3
 fi
@@ -97,12 +97,12 @@ Loops
 for loop and While loop
 
 For Loop
-
+===================
     Shell                                                                    python
 
 for i in 10 20 30 40 60                                                     for i in [10,20,40,50,60]
 do                                                                             stmnt1
-  stmnt 1
+  stmnt1
 done
 
 range(5) = [0,1,2,3,4]
