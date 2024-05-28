@@ -22,5 +22,20 @@ print(str1[-2]) = a           --> To print last nut one char of the string
 print(str1[1:]) = "i Team"    --> To print from 'i' to end of string
 print(str1[::-1]) = "maeT iH" --> To print Reverse of string
 print(str1[:-1]) = "Hi Tea"   --> To print excep last cha of string
-print(type(str1)) = string
+
+lis1=[10,20,30,40,50]
+index  0  1  2  3  4
+      -5 -4 -3 -2 -1
+
+print(lis1[0]) = 10
+print(lis1[4]) = 50
+print(lis1[-1]) = 50
+print(lis1[-3]) = 30
+print(lis1[2]) = 30
+print(lis1[::-1]) = 50,40,30,20,10
+print(lis1[-1]) = 40
+print(lis1[1:]) = 20,30,40,50
+print(lis1[0:3]) = 10,20,30
+
+
 
