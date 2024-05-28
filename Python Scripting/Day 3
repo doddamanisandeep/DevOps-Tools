@@ -43,4 +43,72 @@ print(dict1["Subject"]) = Python
 print(dict1["batchno"]) = 1
 print(dict1.keys()) = (['Subejct' 'mode' 'batchno'])
 print(dict1.values()) = (['Python' 'Online' '1'])
+==========================================================================================================================
+
+
+Functions
+==================
+
+Whenever there is requirement of execution same work again and again we use Functions
+Example as below
+
+a=10
+b=20
+print(a,b)
+a=30
+b=40
+print(a,b)
+
+In simple terms for code re usablity we can use Functions
+
+syntax
+               def fn name():
+               stment1
+               stment2
+Calling        fn name()
+
+i.e Declaring one time and calling that function for 'n' times
+
+Example as follows
+-------------------
+#!/usr/bin/python
+def mydata ():                                             --->> Defining the Function
+         print("Hi Team welcome to python Functions")
+mydata()                                                   --->> calling the Function
+
+Functions are classfied as follows
+=======================================
+1. Required Arguments
+2. Keyword Arguments
+3. Default Argument
+4. variable-length Arguments
+
+
+1. Required Arguments: This means if we delcaring a function and 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
