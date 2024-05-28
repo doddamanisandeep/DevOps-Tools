@@ -1,1 +1,24 @@
+Advanced Data Types
+====================
 
+ipython
+
+str1 = "Hi Team"
+index    0  1  2  3  4  5  6
+         H  i     T  e  a  m
+        -7 -6 -5 -4 -3 -2 -1
+
+print(str1) = Hi team
+print(str1[1]) = i
+print(str1[0]) = H
+print(str1[6]) = 6
+print(str1[-7]) = H
+print(str1[2]) = " "          --> To print 2nd char of index which is space
+print(str1[-6]) = i           --> To print 2nd char from reverse index
+print(str1[-1]) = m           --> To print last char of string
+print(str1[0:4]) = "Hi T"     --> To print first 4 characteristics of string
+print(str1[0:3]) = "Hi "      --> To print first 3 characteristics of string
+print(str1[-2]) = a           --> To print last nut one char of the string
+print(str1[1:]) = "i Team"    --> To print from 'i' to end of string
+print(str1[::-1]) = "maeT iH" --> To print Reverse of string
+print(str1[  
