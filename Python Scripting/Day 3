@@ -33,9 +33,14 @@ print(lis1[-1]) = 50
 print(lis1[-3]) = 30
 print(lis1[2]) = 30
 print(lis1[::-1]) = 50,40,30,20,10
-print(lis1[-1]) = 40
+print(lis1[-1]) = 10,20,30,40
 print(lis1[1:]) = 20,30,40,50
 print(lis1[0:3]) = 10,20,30
 
-
+dict1={"Subject": "Python", "Mode": "Online", "batchno": "1"}
+print(dict1["mode"]) = Online
+print(dict1["Subject"]) = Python
+print(dict1["batchno"]) = 1
+print(dict1.keys()) = Subejct, mode, batchno
+print(dict1.values()) = Python, Online, 1
 
