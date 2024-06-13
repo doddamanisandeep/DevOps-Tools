@@ -1,0 +1,30 @@
+Summary of OSI(Open Systems Interconnection) Layers
+Layer 7: Application: User interface, application services (HTTP, FTP).
+Layer 6: Presentation: Data translation, encryption, compression (SSL/TLS).
+Layer 5: Session: Session management (NetBIOS, RPC).
+Layer 4: Transport: End-to-end communication, reliability (TCP, UDP).
+Layer 3: Network: Logical addressing, routing (IP).
+Layer 2: Data Link: Physical addressing, error detection (Ethernet, Wi-Fi).
+Layer 1: Physical: Physical medium, raw bit transmission (cables, NICs).
+
+1. Physical Layer
+Function: Responsible for the physical connection between devices, including the transmission and reception of raw binary data over a physical medium.
+Examples: Cables (Ethernet, fiber optic), switches, hubs, network interface cards (NICs).
+2. Data Link Layer
+Function: Provides node-to-node data transfer and handles error detection and correction from the physical layer. It frames the data packets and adds MAC addresses to them.
+Examples: Ethernet, Wi-Fi (IEEE 802.11), switches, bridges.
+3. Network Layer
+Function: Manages the delivery of packets from the source to the destination across multiple networks. It handles logical addressing (IP addresses) and routing.
+Examples: IP (Internet Protocol), routers, IPv4, IPv6.
+4. Transport Layer
+Function: Ensures reliable data transfer between end systems, including error checking, flow control, and segmentation. It establishes, maintains, and terminates connections.
+Examples: TCP (Transmission Control Protocol), UDP (User Datagram Protocol).
+5. Session Layer
+Function: Manages sessions between applications. It establishes, maintains, and terminates communication sessions.
+Examples: NetBIOS, RPC (Remote Procedure Call).
+6. Presentation Layer
+Function: Translates data between the application layer and the network. It handles data encryption, decryption, compression, and translation between different data formats.
+Examples: SSL/TLS (Secure Sockets Layer/Transport Layer Security), JPEG, MPEG.
+7. Application Layer
+Function: Provides network services directly to applications. It facilitates communication between software applications and lower layers of the OSI model.
+Examples: HTTP, FTP, SMTP, DNS, POP3.
