@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: nginx-daemonset
+  labels:
+    app: nginx
+spec:
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "256Mi"
+          requests:
+            cpu: "250m"
+            memory: "128Mi"
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log/nginx
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      hostNetwork: true
+      tolerations:
+      - key: "node-role.kubernetes.io/master"
+        operator: "Exists"
+        effect: "NoSchedule"
+
+
+
+Explanation
+apiVersion: Specifies the API version (apps/v1 in this case).
+kind: Specifies the type of Kubernetes resource (DaemonSet).
+metadata: Contains metadata about the DaemonSet, including its name and labels.
+spec: The specification of the DaemonSet.
+selector: Defines how the DaemonSet identifies which Pods to manage.
+template: The Pod template used by the DaemonSet to create Pods.
+metadata: Metadata for the Pods, including labels.
+spec: The specification for the Pods.
+containers: The list of containers for the Pod.
+name: The name of the container.
+image: The Docker image for the container.
+ports: The ports exposed by the container.
+resources: Resource limits and requests for the container.
+volumeMounts: Mounts the volume to the specified path in the container.
+volumes: The volumes available to the container.
+hostNetwork: If true, the Pod will use the host network.
+tolerations: Allows the DaemonSet to run on nodes with certain taints, in this case, the master nodes.
