@@ -4,3 +4,18 @@ ROLE BASED ACCESS CONTROL
 1.Verbs(Actions) --> Read, Write, Update, Delete
 2.API Resources -->  Pods, Services,Deployment, PV, PVC, Ingress etc...
 3.Subjects --> Users, Groups, Processes(Service Account).
+
+
+RBAC
+======
+
+Authentication --> Authorization --> Admission control --> database
+
+1. On receinving the request,
+    Fst Authenticate the user
+      --> If validation fails, reject the request and 401 unauthorozed
+      --> Otherwise moves to next stage
+2. The user is Authenticated,
+    But they do not have permission/access to resource 
+      --> If they dont, rejects the request by returning, 403 forebidden
+      --> Otherwise continues with the request
