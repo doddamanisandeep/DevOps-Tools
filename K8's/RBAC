@@ -19,3 +19,27 @@ Authentication --> Authorization --> Admission control --> database
     But they do not have permission/access to resource 
       --> If they dont, rejects the request by returning, 403 forebidden
       --> Otherwise continues with the request
+
+
+
+Admin role
+--------------
+
+Delete Repo
+Cretae Repo
+Deploy
+
+
+Maintainer role
+-----------------
+
+Approve PR
+Create Tag
+
+
+Operatir role
+--------------
+
+Comment on PR
+Open PR
+Edit Release
