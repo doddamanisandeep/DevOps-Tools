@@ -20,7 +20,9 @@ List
 Defining                lis1=[10,20,30,40,50]
 Index                          0  1  2  3  4
                                5 -4 -3 -2 -1  
-Accessing               print(lis1[3])= 40 | print(lis1[-2])= 40 | print(lis1[0:2])= 10,20
+Accessing               print(lis1[3])= 40
+                        print(lis1[-2])= 40
+                        print(lis1[0:2])= 10,20
 
 
 Tupple
@@ -28,13 +30,14 @@ Tupple
 Defining               tup1 = (15,20,30,200,30,350)
 Index                           0  1  2  3  4   5   
                                -6 -5 -4 -3 -2  -1
-Accessing              print(tup1(1))=20 | print(tup1(-5))= 20
-
-Note
-=====
-Tupple is Immutable
-Means once defined it can not be modified
-
+Accessing              print(tup1(1))=20
+                       print(tup1(-5))= 20
+===============================================
+| Note                                        |    
+| =====                                       |      
+| Tupple is Immutable                         |
+| Means once defined it can not be modified   |
+===============================================
 
 Dictonary
 ================
@@ -50,7 +53,9 @@ Conditons
 
 if, if-else, elif ladder
 
-Note:Python is very strict with Indentation
+===============================================
+| Note:Python is very strict with Indentation |
+===============================================
 
 If condition
 ================
