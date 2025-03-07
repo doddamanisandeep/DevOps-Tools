@@ -62,9 +62,11 @@ print(a,b)
 In simple terms for code re usablity we can use Functions
 
 syntax
+=========
                def fn name():
                stment1
                stment2
+
 Calling        fn name()
 
 i.e Declaring one time and calling that function for 'n' times
@@ -85,6 +87,13 @@ Functions are classfied as follows
 
 
 1. Required Arguments: This means if we delcaring a function and 
+
+Ex:
+
+def my data(a,b):
+         print("Sum of a and B is ", a+b)
+
+In above example a and B are the required arguments which are necessary to pass in order to get desired output.
 
 
 
