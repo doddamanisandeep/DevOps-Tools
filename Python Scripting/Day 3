@@ -85,9 +85,9 @@ Functions are classfied as follows
 3. Default Argument
 4. variable-length Arguments
 
-
+===========================================================================================================
 1. Required Arguments: This means if we delcaring a function with 2 variables we need to pass 2 variables. 
-
+===========================================================================================================
 Ex:
 
 def my data(a,b):
