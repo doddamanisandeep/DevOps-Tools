@@ -7,23 +7,23 @@ Ruby
 Java/java script
 
 
-Shell Script                                                                            Python Scripting
-================                                                                       ====================
- #!/bin/bash                                                                            #!usr/bin/python
-comment section                                                                         #Comment1
-SLC                                                                                     #Comment2
-#comment1                                                                               MLC                                                                  
-#commnet2                                                                               ''' or """
-MLC                                                                                     Comment line1
-Nill                                                                                    Comment line 2 
-                                                                                        ''' or """
+Shell Script                                     Python Scripting
+================                                ====================
+ #!/bin/bash                                     #!usr/bin/python
+comment section                                  #Comment1
+SLC                                              #Comment2
+#comment1                                        MLC                                                                  
+#commnet2                                        ''' or """
+MLC                                              Comment line1
+Nill                                             Comment line 2 
+                                                 ''' or """
 =============
 Variable
 =============
-Define     var1=10                                                                        var1=10
-Accessing  $var1                                                                          var1
-Printing   echo $var1                                                                     print var1 <= 2.x | 
-                                                                                          print(var1) =>=3.x
+Define     var1=10                                     var1=10
+Accessing  $var1                                       var1
+Printing   echo $var1                                  print var1 <= 2.x | 
+                                                       print(var1) =>=3.x
 
 
 First Script
