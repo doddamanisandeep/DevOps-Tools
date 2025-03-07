@@ -20,10 +20,10 @@ Nill                                             Comment line 2
 =============
 Variable
 =============
-Define     var1=10                                     var1=10
-Accessing  $var1                                       var1
-Printing   echo $var1                                  print var1 <= 2.x | 
-                                                       print(var1) =>=3.x
+Define     var1=10                               var1=10
+Accessing  $var1                                 var1
+Printing   echo $var1                            print var1 <= 2.x | 
+                                                 print(var1) =>=3.x
 
 
 First Script
