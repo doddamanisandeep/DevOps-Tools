@@ -95,9 +95,19 @@ def my data(a,b):
 
 In above example a and B are the required arguments which are necessary to pass in order to get desired output.
 
+ex:
+def mydata(a,b):
+         print("Sun of a and b is ", a+b)
+mydata(10,20)
+mydata(20,30)
+mydata(400,500)
 
-
-
+ex1:
+======
+def flatprice(place,price):
+    print("Area is ",place, "and cost is ", price*price )
+    
+flatprice("marathalli",2000)
 
 
 
