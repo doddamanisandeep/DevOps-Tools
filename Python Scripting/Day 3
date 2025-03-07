@@ -110,18 +110,30 @@ def flatprice(place,price):
 flatprice("marathalli",2000)
 flatprice("HSR",5000)
 flatprice("BTM",12000)
+
+
+
+===========================================================================================================================
+2. Keyword Arguments: This means we need to pass the value of argument along with keywords defined under function as below. 
+===========================================================================================================================
+
+def flatprice(place,price):
+    print("Area is ",place, "and cost is ", price*price )
+
+flatprice("BTM",12000)
 flatprice(price=3000,place="yelahanka")
 
+========================================================================================================================================
+3. Default Arguments: This means we need to pass defalut values for the argument along with keywords defined under function as below. 
+========================================================================================================================================
 
 
+def flatprice(place="Mejastic",price=50000):
+    print("Area is ",place, "and cost is ", price*price )
 
-
-
-
-
-
-
-
+flatprice("BTM",12000)
+flatprice(price=3000,place="yelahanka")
+flatprice("Mejastic")
 
 
 
