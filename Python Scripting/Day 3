@@ -127,7 +127,8 @@ flatprice(price=3000,place="yelahanka")
 3. Default Arguments: This means we need to pass defalut values for the argument along with keywords defined under function as below. 
 ========================================================================================================================================
 
-
+Ex:1
+====
 def flatprice(place="Mejastic",price=50000):
     print("Area is ",place, "and cost is ", price*price )
 
@@ -136,10 +137,15 @@ flatprice(price=3000,place="yelahanka")
 flatprice("Mejastic")
 
 
+Ex:2
+====
 
+def mydata(a=10,b=20)
+         print("Sum of a and b is ", a+b)
 
-
-
+mydata(10,20)
+mydata(20,30)
+mydata(10) ==> In this data 'b' value will be taken from the defined data which is 20
 
 
 
