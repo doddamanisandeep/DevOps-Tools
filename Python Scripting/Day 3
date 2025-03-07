@@ -110,6 +110,8 @@ def flatprice(place,price):
 flatprice("marathalli",2000)
 flatprice("HSR",5000)
 flatprice("BTM",12000)
+flatprice(price=3000,place=yelahanka)
+
 
 
 
