@@ -86,7 +86,7 @@ Functions are classfied as follows
 4. variable-length Arguments
 
 
-1. Required Arguments: This means if we delcaring a function and 
+1. Required Arguments: This means if we delcaring a function with 2 variables we need to pass 2 variables. 
 
 Ex:
 
@@ -108,6 +108,9 @@ def flatprice(place,price):
     print("Area is ",place, "and cost is ", price*price )
     
 flatprice("marathalli",2000)
+flatprice("HSR",5000)
+flatprice("BTM",12000)
+
 
 
 
