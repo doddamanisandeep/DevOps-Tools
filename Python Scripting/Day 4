@@ -10,5 +10,21 @@ Functions continuation
 4.Variable number of Arguments
 ============================================
 
+If a funcetion required more varibale needs to be passed like 50 variables,
+In such case we use variable Number of Argument Function.
+
+
+
+def var_args(*varname):
+  print("varname is ", varname)
+  print(type(varname))
+var_args(10,20,30,40,50,"hi team")
+
+
+
+
+
+
+
 
 
