@@ -3,10 +3,21 @@ Introduction
 
 Example
 ----------
-Assume that you need to create a user and password then add it to 1000 servers
+1. Assume that you need to create a user and password then add it to 1000 servers
 then for repetating works we will go with Automation such as Shellscripting &
 Python Scripting.
 
+2. You want to check disk usage on 500 servers daily and get alerted if usage > 80%.
+
+3. Deploy a new version of an application on 200 servers
+
+4. You want to check:
+     - CPU usage
+     - Memory usage
+     - Disk usage
+     - Running services
+
+==================================================
 
 - Filename should be anything with extension .sh
 - First line should be always
