@@ -44,3 +44,30 @@ IntQ: Why u need to write SheBang Line?
 - Execute
     bash filename or 
     ./filename.sh
+
+========================
+VARIABLES
+========================
+2 Types
+     1. System Defined
+     2. User Defined
+
+          1. System Defined: (Comes with System)
+               type  "env" to see system defined variables
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
