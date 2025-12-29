@@ -6,3 +6,11 @@ Example
 Assume that you need to create a user and password then add it to 1000 servers
 then for repetating works we will go with Automation such as Shellscripting &
 Python Scripting.
+
+
+- Filename should be anything with extension .sh
+- First line should be always
+  #!/bin/bash
+- Execute
+    bash filename or 
+    ./filename.sh
