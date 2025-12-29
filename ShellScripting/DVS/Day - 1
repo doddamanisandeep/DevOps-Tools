@@ -10,7 +10,7 @@ Python Scripting.
 
 - Filename should be anything with extension .sh
 - First line should be always
-  #!/bin/bash
+    #!/bin/bash
 - Execute
     bash filename or 
     ./filename.sh
