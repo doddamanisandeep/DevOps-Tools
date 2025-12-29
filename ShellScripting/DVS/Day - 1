@@ -22,6 +22,25 @@ Python Scripting.
 - Filename should be anything with extension .sh
 - First line should be always
     #!/bin/bash
+IntQ: Why u need to write SheBang Line?
+          SheBang line represent in which environment your code should get execute?
+          Like 
+               bash shell, 
+               ksh shell, 
+               sh shell
+               zsh shell
+               csh shell
+
+          Shell	Family	Common Use
+          sh	     Bourne	Basic scripts
+          bash	     Bourne	Default, scripting
+          dash	     Bourne	Fast system scripts
+          ksh	     Bourne	Enterprise systems
+          zsh	     Bourne	Developer-friendly
+          csh	     C Shell	Interactive use
+          tcsh	     C Shell	Improved csh
+
+
 - Execute
     bash filename or 
     ./filename.sh
